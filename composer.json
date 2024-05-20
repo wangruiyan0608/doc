@@ -1,0 +1,25 @@
+{
+  "name": "wangruiyan/doc",
+  "description": "自动生成文档",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "王睿妍",
+      "email": "wangruiyan0608@foxmail.com"
+    }
+  ],
+  "require":{
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "wangruiyan\\": "src/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+        "type": "composer",
+        "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
